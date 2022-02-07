@@ -12,7 +12,7 @@
 
 ## Sobre
 
-Problema do Caixeiro Viajante, dado um conjunto de cidades e a distância entre cada par de cidades, o problema é encontrar a rota mais curta possível que visite todas as cidades exatamente uma vez e retorne ao ponto de partida. Para isso utilizamos o Backtracking recurssivo para solucionar tal problema.
+Problema do Caixeiro Viajante, dado um conjunto de cidades e a distância entre cada par de cidades, o problema é encontrar a rota mais curta possível que visite todas as cidades exatamente uma vez e retorne ao ponto de partida. Para isso utilizamos o Backtracking recursivo para solucionar tal problema.
 
 ## Screenshots
 
@@ -47,5 +47,5 @@ Acesse o diretório:
 
 Compile o código com o seguinte comando:
 
-`$ g++ caixeiroViajante.cpp -o caixeiroViajante`
+`$ g++ caixeiroViajante.cpp -o caixeiroViajante` <br>
 `$ ./caixeiroViajante`
