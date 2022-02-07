@@ -7,27 +7,45 @@
 
 |Matrícula | Aluno |
 | -- | -- |
-| 16/0006210  |  Francisco Heronildo |
-| 14/0156909  |  Nathalia Lorena Cardoso |
+| 14/0156909  |  [Nathalia Lorena Cardoso](https://github.com/Natilorens) |
+| 16/0006210  |  [Francisco Heronildo](https://github.com/FranciscoHeronildo) |
 
 ## Sobre
 
-Problema do Caixeiro Viajante, dado um conjunto de cidades e a distância entre cada par de cidades, o problema é encontrar a rota mais curta possível que visite todas as cidades exatamente uma vez e retorne ao ponto de partida.
+Problema do Caixeiro Viajante, dado um conjunto de cidades e a distância entre cada par de cidades, o problema é encontrar a rota mais curta possível que visite todas as cidades exatamente uma vez e retorne ao ponto de partida. Para isso utilizamos o Backtracking recurssivo para solucionar tal problema.
 
 ## Screenshots
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+_Grafo utilizado_
+
+![graph](/images/graph.jpg)
+
+_Resultado_
+
+![result](/images/result.png)
 
 ## Instalação
 
 **Linguagem**: C++<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+
+_Pré-requisitos:_
+
+- SO baseando em Linux
+- [G++](https://www.digitalocean.com/community/questions/how-to-run-a-c-app-in-linux)
 
 ## Uso
 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+_Via Terminal:_
 
-## Outros
+Clone o Repositório:
 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+`$ git clone https://github.com/projeto-de-algoritmos/Grafos1-CaixeiroViajente.git`
+
+Acesse o diretório:
+
+`$ cd Grafos1-CaixeiroViajente/src/`
+
+Compile o código com o seguinte comando:
+
+`$ g++ caixeiroViajante.cpp -o caixeiroViajante`
+`$ ./caixeiroViajante`
