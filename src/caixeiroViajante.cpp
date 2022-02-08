@@ -27,12 +27,12 @@ int caixeiroViajante(int graph[][V], int s)
             k = vertice[i];
         }
         atual_pesoRota += graph[k][s];
-        
-        // atualiza o mínimo
-        min_Rota = min(min_Rota, atual_pesoRota);
-        
+
         // mostra a distância de todas as rotas possíveis
         cout << atual_pesoRota << endl;
+
+        // atualiza o mínimo
+        min_Rota = min(min_Rota, atual_pesoRota);
 
     } while (next_permutation(vertice.begin(), vertice.end()));
     return min_Rota;
@@ -50,8 +50,10 @@ int main()
 
     int s = 0;
 
-    cout << "A menor rota para percorrer as cidades 1-2-3-4-5-1 eh: " << caixeiroViajante(graph, s) << "km" << endl;
-    cout << "Caminhos propostos: " << "1-5-2-3-4-1 ou 1-4-3-2-5-1 ou 1-4-3-5-2-1 ou 1-2-5-3-4-1" << endl;
+    int rota = caixeiroViajante(graph, s);
+    cout << "A menor rota para percorrer as cidades 1-2-3-4-5-1 é:" << rota << " km" << endl;
+    cout << "Caminhos propostos: "
+         << "1-5-2-3-4-1 ou 1-4-3-2-5-1 ou 1-4-3-5-2-1 ou 1-2-5-3-4-1" << endl;
 
     return 0;
 }
